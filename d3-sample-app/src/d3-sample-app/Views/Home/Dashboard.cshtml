@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "Maps with D3";
+}
+<h2>@ViewData["Title"].</h2>
+
+<section id="d3-map">
+    <h3>Basic map</h3>
+</section>
+<section id="d3-map-2">
+    <h3>Map with fill based on data</h3>
+</section>
+<section id="d3-map-3">
+    <h3>Map with points sized using data</h3>
+</section>
+
+@section styles {
+<style>
+    section {
+        border-bottom: 1px dotted #CCC;
+    }
+
+</style>
+}
+
+@section scripts {
+<script src="~/lib/d3/d3.js"></script>
+<script src="~/js/d3-map.js"></script>
+<script src="~/js/d3-map-2.js"></script>
+<script src="~/js/d3-map-3.js"></script>
+}
